@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*el ancho total incluye padding y borde. Ajusta el contenido para que todo entre en el tamaño especificado*/
+    font-family: "Roboto Slab", serif;
+}
+header {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/images/bgHeader.png');
+    background-size: cover; /*Hace que la imagen cubra completamente el área del fondo.*/
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.titulo {
+    text-align: center;
+    margin: 100px;
+}
+.titulo h1 {
+    color: rgb(254, 148, 76);
+    font-size: 60px;
+}
+.boton1 {
+    background-color: rgb(254, 148, 76);
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+}
