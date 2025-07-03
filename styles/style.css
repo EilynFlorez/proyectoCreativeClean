@@ -184,7 +184,7 @@ footer {
 .footer2 {
     text-align: center;
     padding: 25px;
-    box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.15); /* Desplazamiento horizontal, vertical, desenfoque y color */
 }
 .footer2 p {
     font-size: 12px;
